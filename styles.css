@@ -90,6 +90,20 @@ a,a:hover,a:visited {
     font-weight: 600;
     color: #0077FF;
 }
+a.button {
+    color: #101315;
+    background: #F3F4F5;
+    font-weight: 600;
+    letter-spacing: -0.25px;
+    text-decoration: none;
+    border-radius: 3px;
+    padding: 10px 12px;
+    box-shadow: 0 0 0 rgba(0,0,0,0);
+    transition: box-shadow 100ms ease-out;
+}
+a.button:hover {
+    box-shadow: 0 3px 4px rgba(0,0,0,0.16);
+}
 .small {
     font-size: 12px;
 }
