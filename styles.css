@@ -78,6 +78,9 @@ h4 {
     color: #676F76;
     margin-bottom: 16px;
 }
+h2 small a,
+h2 small a:hover,
+h2 small a:visited,
 h4 small a,
 h4 small a:hover,
 h4 small a:visited {
@@ -116,6 +119,9 @@ a.button {
 a.button:hover {
     box-shadow: 0 3px 4px rgba(0,0,0,0.16);
 }
+a.button svg {
+    margin-right: 6px;
+}
 .small {
     font-size: 12px;
 }
@@ -129,6 +135,9 @@ header {
     align-items: end;
     justify-content: space-between;
     padding: 16px 16px 0;
+}
+header .right a {
+    margin-left: 8px;
 }
 
 main, section {
@@ -191,6 +200,17 @@ hr {
 }
 .recent a {
     text-decoration: none;
+    line-height: 20px;
+}
+.topic-buttons {
+    margin-top: 16px;
+    display: flex;
+    gap: 8px;
+}
+.topic-button {
+    display: flex;
+    margin-bottom: 16px;
+    flex-wrap: wrap;
 }
 
 footer {
