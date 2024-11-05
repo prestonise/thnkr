@@ -75,7 +75,7 @@ h3 {
     font-weight: 600;
 }
 h4 {
-    color: #676F76;
+    color: #50575F;
     margin-bottom: 16px;
 }
 h2 small a,
@@ -174,7 +174,7 @@ hr {
     margin-bottom: 24px;
 }
 .post p {
-    color: #676F76;
+    color: #50575F;
 }
 .viewpoint {
     display: flex;
@@ -195,7 +195,7 @@ hr {
 }
 .recent-post span {
     display: block;
-    color: #676F76;
+    color: #50575F;
     margin-bottom: 6px;
 }
 .recent a {
@@ -217,7 +217,7 @@ footer {
     padding: 0 16px;
     width: calc(100% - 32px);
     font-size: 12px;
-    color: #90999F;
+    color: #50575F;
 }
 footer div {
     display: flex;
