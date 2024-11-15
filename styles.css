@@ -177,6 +177,7 @@ hr {
     margin-bottom: 24px;
 }
 .square-image {
+    width: 100%;
     max-width: 480px;
 }
 .post h2 {
