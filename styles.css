@@ -176,11 +176,28 @@ hr {
     margin-top: 48px;
     margin-bottom: 24px;
 }
+.square-image {
+    max-width: 480px;
+}
 .post h2 {
     margin-bottom: 24px;
 }
 .post p {
     color: #50575F;
+}
+.post ul, .post ol {
+    margin: 16px 0 24px 20px;
+}
+.post ul li, .post ol li {
+    list-style-type: disc;
+    line-height: 1.5;
+    margin-bottom: 8px;
+}
+.post ol li {
+    list-style-type: decimal;
+}
+.post strong {
+    font-weight: bold;
 }
 .viewpoint {
     display: flex;
