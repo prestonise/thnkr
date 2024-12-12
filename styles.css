@@ -78,6 +78,9 @@ a {
     color: black;
     text-decoration: none;
 }
+.black {
+    color: black !important;
+}
 
 a.logo-link {
     display: inline-block;
@@ -97,6 +100,9 @@ a.logo-link {
     letter-spacing: 0.16em;
     text-transform: uppercase;
     color: white;
+}
+.post-page header {
+    margin-bottom: 1.5rem;
 }
 header.hero {
     background-image: url(https://prestonise.s3.eu-west-2.amazonaws.com/images/u3797653683_friendly_image_of_people_and_AI_working_together__68e9eec2-1bf7-4a3b-a9fc-4391dd30a5fd_2.png);
@@ -158,7 +164,7 @@ header.hero span {
 
 #sub-hero {
     display: block;
-    padding-bottom: 6.255rem;
+    padding-bottom: 6.25rem;
 }
 .posts-page #sub-hero {
     padding-bottom: 3rem;
@@ -210,6 +216,10 @@ a > img.icon {
 .how-to-text p {
     line-height: 22px;
     color: #494949;
+}
+.how-to a {
+    display: inline-block;
+    margin-top: 1rem;
 }
 .how-to p.disclaimer {
     color: #AFAFAF;
@@ -278,6 +288,15 @@ a > img.icon {
     text-transform: uppercase;
     color: white;
 }
+.panel-button {
+    background: black;
+    display: inline-block !important;
+    font-size: 1.25rem;
+    border-radius: 0.5rem;
+    padding: 14px 1rem;
+    margin-top: 1.5rem;
+    color: white;
+}
 
 #three-use-cases,
 #two-more-use-cases {
@@ -292,7 +311,8 @@ a > img.icon {
     max-width: 376px;
     margin-bottom: 2.5rem;
 }
-.use-case-cover-image {
+.use-case-cover-image,
+.post-cover-image {
     width: 100%;
     max-width: 376px;
     height: 274px;
@@ -302,6 +322,9 @@ a > img.icon {
     border-radius: 12px;
     margin-bottom: 2.5rem;
     border-radius: 0.75rem;
+}
+.post-cover-image {
+    margin-bottom: 1.5rem;
 }
 .use-case h3 {
     display: flex;
@@ -324,6 +347,80 @@ a > img.icon {
 .full-width.grey-bg h2 {
     text-align: center;
     margin-bottom: 2.5rem;
+}
+
+.go-back-link {
+    font-size: 1rem;
+    color: #AFAFAF;
+    display: inline-block;
+    margin-bottom: 1rem;
+}
+.back-icon {
+    transform:rotate(180deg);
+    margin-right: 4px;
+    opacity: 0.33;
+}
+#post-hero h1 {
+    max-width: 800px;
+    margin-bottom: 2rem;
+}
+#post-hero .post-cover-image {
+    margin-bottom: 3rem;
+}
+#post-hero p {
+    color: #494949;
+    line-height: 1.4;
+    margin: 1rem 0 1.5rem;
+    max-width: 640px;
+    background: #F1F1F1;
+    padding: 16px 20px;
+    border-radius: 12px;
+}
+
+.audio-player {
+    margin-bottom: 3rem;
+}
+.audio-player-wrapper {
+    max-width: 320px;
+    border: 1px solid #AFAFAF;
+    padding: 24px 20px;
+    border-radius: 12px;
+}
+audio {
+    width: 100%;
+    max-width: 300px;
+}
+.audio-player h4 {
+    margin-bottom: 1rem;
+}
+
+.discussion-text {
+    margin-bottom: 5rem;
+}
+.discussion-text p {
+    margin-top: 1.5rem;
+    font-size: 1.25rem;
+    line-height: 28px;
+    max-width: 800px;
+    color: #494949;
+}
+.discussion-text p > span {
+    display: block;
+    margin-bottom: 1rem;
+    border-left: 3px solid #FFCC44;
+    padding-left: 0.75rem;
+}
+.discussion-text p > span.economist {
+    border-left-color: #2196F3;
+}
+.discussion-text p > span.philosopher {
+    border-left-color: #EE5544;
+}
+.discussion-text p > span.sociologist {
+    border-left-color: #5E4A90;
+}
+.discussion-text p > span.technologist {
+    border-left-color: #606B7F;
 }
 
 footer {
@@ -375,6 +472,10 @@ footer {
 @media only screen and (min-width: 960px) {
     .header-image {
         height: 240px;
+    }
+    .post-cover-image {
+        max-width: 100%;
+        height: 480px;
     }
     .container.how-to {
         display: flex;
@@ -451,6 +552,9 @@ footer {
         display: flex;
         align-items: end;;
         justify-content: space-between;
+    }
+    #post-hero {
+        margin-top: 4rem;
     }
     #two-more-use-cases .use-case,
     #two-more-use-cases .use-case-cover-image {
